@@ -5,7 +5,7 @@ import headerImg from '../root/header-img.jpg';
 export default class Header extends React.Component {
     render() {
         const imageUrl = window.innerWidth <= 500 ? headerImg : headerImg;
-        return (<div style={{backgroundColor: '#e0e5e9', width: '100%'}}>
+        return (<div className='header-wrapper'>
             <div 
                 id='header'
                 className="App" 
