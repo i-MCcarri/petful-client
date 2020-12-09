@@ -19,12 +19,16 @@ div.Splash {
 }
 
 div.App {
-    height: 150px;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-    background-position-x: 0px;
-    background-position-y: -5px;
+    width: 100%;
+    height: 200px;
+}
+
+div.header-wrapper {
+    background-color: #e0e5e9;
+    width: 100%;
 }
 
 .loading {
@@ -105,5 +109,20 @@ div#footer button {
     button, .button {
         width: 200px;
         align-items: center;
+    }
+
+    div.App {
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: contain; /* Resize the background image to cover the entire container */
+        background-position-x: 0px;
+        background-position-y: -5px;
+        width: 100%;
+        height: 450px;
+    }
+
+    div.header-wrapper {
+        background-color: #e0e5e9;
+        width: 100%;
     }
 }
