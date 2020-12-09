@@ -1,6 +1,66 @@
-# Petful Client
+# Petful 
+intelligent fasting assistant. set, track, review.
+
+## Petful Client Summary
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Petful is mobile-first designed application and website for an animal shelter which allows adoption of cats and dogs. These are the only 2 animals in the shelter. The adoption process works strictly on a "First-In, First-Out" basis. The FIFO is based on the animals that came to the shelter first. People can adopt a cat, or a dog, or both, but they may only adopt the animal that came to the shelter first. In addition, people who want to adopt are also put in a Queue so they can adopt when it's their turn.
+
+```Petful Client``` is the frontend for ```Petful```. to see Petful in action, checkout <a href='https://petful-client-seven.vercel.app'>Petful</a>.
+
+The ```Petful``` backend can be found at: <a href='https://obscure-bastion-28504.herokuapp.com'>Petful-api</a>.
+
+## Demo Account Details
+
+No credentials for current version. 
+
+## Tech Behind the App
+
+<strong>Frontend</strong>
+<ul>
+<li>React</li>
+<ul>
+<li>Create React App</li>
+<li>React Router</li>
+<li>React Context</li>
+</ul>
+<li>HTML5</li>
+<li>CSS3</li>
+</ul>
+
+<strong>Production</strong>
+<ul>
+<li>Deployed via Vercel</li>
+</ul>
+
+## Setup
+
+### local setup
+
+clone this repository to your local machine
+
+```git clone https://github.com/i-MCcarri/petful-client```
+
+Change directory into the cloned repository
+
+``` cd Petful ```
+
+Make a fresh start of the git history for this project
+
+```git remote remove origin && git init```
+
+Install the node dependencies
+
+```npm install```
+
+Follow the setup instructions to get ```Petful``` up and running.
+
+## Quick Start Scripts
+
+start the application
+
+```npm start``` 
 
 ## Available Scripts
 
